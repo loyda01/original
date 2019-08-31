@@ -22,7 +22,7 @@
         </div>
       </div>
         <div class="col-4 slogan">
-          Advice on living your life instead of just existing
+          Advice on how to live your life instead of just existing in it
         </div>
         <div class="col-5 links">
           <%= link_to 'Contribute', '#' %>
@@ -32,7 +32,24 @@
     <hr />
 
     <br class="clear" />
-    <%= yield %>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <%= link_to "This isnt enough, I need more." , '#', class: 'next-quote' %> 
+          </div>
+          <div class="col-6 footer-blurb">
+            Enlightenment provided by <a href= "https://loydalopezbio.netlify.com">[Loyda Lopez]</a><br />
+            Want to build your own Splurty web app - <a href= "https://online.bootcampspot.com"> Learn to code here </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>
