@@ -64,6 +64,12 @@
   
   }
 
+  h2 span {
+  color: #7A8289;
+  font-family: 'Merriweather', serif;
+
+  }
+
   .next-quote {
   color: #DE3D1F;
   font-family: 'fontspring_demo_-_questaIt';
@@ -90,4 +96,17 @@
 
   }
 
+  @media (max-width:750px) {
+  .footer-blurb {
+    text-align:left;
+    }
+  }
+
+  .modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Bakerville, "Bookman Old Style", "Bitstream Charter", "Ninbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garmand Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  }
+
+::selection {
+  background-color: #f84342;
+}
 
